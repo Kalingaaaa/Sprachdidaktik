@@ -59,8 +59,12 @@ export default function Home() {
             >
               Roter Faden starten
             </Link>
-            <a href="/module" class="border border-line px-7 py-3 text-sm font-medium text-green hover:border-green-500 transition-colors"> module frei wählen
-            </a>   
+<Link
+    href="#module"
+    className="border border-line px-7 py-3 text-sm font-medium text-green hover:border-green transition-colors"
+  >
+    Module frei wählen
+  </Link>
           </div>
         </div>
       </section>
