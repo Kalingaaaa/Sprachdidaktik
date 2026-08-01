@@ -26,3 +26,6 @@ export default function Ueber() {
           eigenständigen Sprachförderung der Lernenden.
         </p>
       </div>
+    </main>
+  );
+}
