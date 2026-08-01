@@ -53,19 +53,20 @@ export default function Home() {
             KI-Einsatz zu geben.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/grundlagen"
-              className="bg-green text-paper px-7 py-3 text-sm font-medium hover:bg-green-soft transition-colors"
-            >
-              Roter Faden starten
-            </Link>
-<Link
+  <Link
+    href="/grundlagen"
+    className="bg-green text-paper px-7 py-3 text-sm font-medium hover:bg-green-soft transition-colors"
+  >
+    Roter Faden starten
+  </Link>
+
+  <Link
     href="#module"
     className="border border-line px-7 py-3 text-sm font-medium text-green hover:border-green transition-colors"
   >
     Module frei wählen
   </Link>
-          </div>
+</div>
         </div>
       </section>
 
