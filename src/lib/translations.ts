@@ -219,6 +219,42 @@ const de = {
     p1: "Fachkräfte in Sozialberufen — etwa in Erziehung oder Pflege — unterrichten oft fachlich hoch kompetent, aber ohne sprachdidaktische Ausbildung. Gleichzeitig hängt der Lernerfolg vieler Lernender maßgeblich davon ab, wie sprachbewusst Fachinhalte vermittelt werden.",
     p2: "Dieses Selbstlern-Tool zeigt, wie generative KI dabei helfen kann — bei der Aufbereitung von Material, bei Übungen und bei der eigenständigen Sprachförderung der Lernenden.",
   },
+  legal: {
+    impressumLink: "Impressum",
+    datenschutzLink: "Datenschutz",
+    impressum: {
+      title: "Impressum",
+      noticeTitle: "Hinweis",
+      notice:
+        "Dies ist eine Platzhalter-Seite. Die folgenden Angaben müssen durch die tatsächlichen Betreiberdaten ersetzt werden (Pflichtangaben nach § 5 DDG).",
+      sectionAngaben: "Angaben gemäß § 5 DDG",
+      name: "[Vollständiger Name / Firmenname]",
+      address: "[Straße, Hausnummer]",
+      cityLine: "[PLZ, Ort]",
+      sectionContact: "Kontakt",
+      email: "E-Mail: [E-Mail-Adresse einfügen]",
+      phone: "Telefon: [Telefonnummer einfügen]",
+      sectionResponsible: "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
+      responsibleText: "[Name, Anschrift wie oben]",
+    },
+    datenschutz: {
+      title: "Datenschutzerklärung",
+      noticeTitle: "Hinweis",
+      notice:
+        "Dies ist eine Platzhalter-Seite. Vor Veröffentlichung sollte diese Erklärung an die tatsächliche Datenverarbeitung angepasst werden.",
+      sectionOverviewTitle: "Verantwortlicher",
+      overviewText: "[Name und Kontaktdaten des Verantwortlichen einfügen]",
+      sectionFontsTitle: "Google Fonts",
+      fontsText:
+        "Diese Website nutzt Google Fonts zur Darstellung von Schriftarten. Beim Aufruf der Seite wird dabei die IP-Adresse an Server von Google übertragen. Details dazu in der Datenschutzerklärung von Google, oder die Schriften werden lokal eingebunden, um dies zu vermeiden.",
+      sectionStorageTitle: "Spracheinstellung",
+      storageText:
+        "Ihre gewählte Sprache wird lokal im Browser gespeichert (localStorage), damit sie beim nächsten Besuch erhalten bleibt. Diese Information wird nicht an den Server übertragen.",
+      sectionRightsTitle: "Ihre Rechte",
+      rightsText:
+        "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten sowie das Recht auf Datenübertragbarkeit.",
+    },
+  },
 };
 
 const en: typeof de = {
@@ -432,6 +468,42 @@ const en: typeof de = {
     p1: "Professionals in care fields — such as early-childhood education or nursing — often teach with strong subject expertise but without training in language pedagogy. At the same time, many learners' success depends heavily on how language-aware the subject content is taught.",
     p2: "This self-study tool shows how generative AI can help — in preparing materials, in exercises, and in supporting learners' independent language development.",
   },
+  legal: {
+    impressumLink: "Legal Notice",
+    datenschutzLink: "Privacy",
+    impressum: {
+      title: "Legal Notice",
+      noticeTitle: "Note",
+      notice:
+        "This is a placeholder page. The following details must be replaced with the actual site operator's information (required under German law, § 5 DDG).",
+      sectionAngaben: "Information pursuant to § 5 DDG",
+      name: "[Full name / company name]",
+      address: "[Street, house number]",
+      cityLine: "[Postal code, city]",
+      sectionContact: "Contact",
+      email: "Email: [insert email address]",
+      phone: "Phone: [insert phone number]",
+      sectionResponsible: "Responsible for content pursuant to § 18 (2) MStV",
+      responsibleText: "[Name, address as above]",
+    },
+    datenschutz: {
+      title: "Privacy Policy",
+      noticeTitle: "Note",
+      notice:
+        "This is a placeholder page. This policy should be adapted to reflect the actual data processing before publication.",
+      sectionOverviewTitle: "Data controller",
+      overviewText: "[Insert name and contact details of the data controller]",
+      sectionFontsTitle: "Google Fonts",
+      fontsText:
+        "This website uses Google Fonts to display typefaces. When the page is loaded, your IP address is transmitted to Google's servers. See Google's privacy policy for details, or host the fonts locally to avoid this.",
+      sectionStorageTitle: "Language preference",
+      storageText:
+        "Your chosen language is stored locally in your browser (localStorage) so it is remembered on your next visit. This information is not transmitted to the server.",
+      sectionRightsTitle: "Your rights",
+      rightsText:
+        "You have the right to access, rectify, erase, and restrict the processing of your personal data, as well as the right to data portability.",
+    },
+  },
 };
 
 const pt: typeof de = {
@@ -644,6 +716,42 @@ const pt: typeof de = {
     placeholder: "Espaço reservado — texto em breve.",
     p1: "Profissionais de áreas sociais — como educação infantil ou enfermagem — frequentemente ensinam com grande competência técnica, mas sem formação em didática de línguas. Ao mesmo tempo, o sucesso de muitos aprendizes depende fortemente de quão consciente linguisticamente o conteúdo técnico é transmitido.",
     p2: "Esta ferramenta de autoaprendizagem mostra como a IA generativa pode ajudar — na preparação de materiais, em exercícios e no apoio ao desenvolvimento linguístico autónomo dos aprendizes.",
+  },
+  legal: {
+    impressumLink: "Aviso Legal",
+    datenschutzLink: "Privacidade",
+    impressum: {
+      title: "Aviso Legal",
+      noticeTitle: "Aviso",
+      notice:
+        "Esta é uma página provisória. As informações abaixo devem ser substituídas pelos dados reais do responsável pelo site (obrigatório segundo a lei alemã, § 5 DDG).",
+      sectionAngaben: "Informações nos termos do § 5 DDG",
+      name: "[Nome completo / nome da empresa]",
+      address: "[Rua, número]",
+      cityLine: "[Código postal, cidade]",
+      sectionContact: "Contacto",
+      email: "E-mail: [inserir endereço de e-mail]",
+      phone: "Telefone: [inserir número de telefone]",
+      sectionResponsible: "Responsável pelo conteúdo nos termos do § 18 (2) MStV",
+      responsibleText: "[Nome, morada como acima]",
+    },
+    datenschutz: {
+      title: "Política de Privacidade",
+      noticeTitle: "Aviso",
+      notice:
+        "Esta é uma página provisória. Esta política deve ser adaptada ao tratamento de dados real antes da publicação.",
+      sectionOverviewTitle: "Responsável pelo tratamento",
+      overviewText: "[Inserir nome e dados de contacto do responsável]",
+      sectionFontsTitle: "Google Fonts",
+      fontsText:
+        "Este site utiliza Google Fonts para exibir tipos de letra. Ao carregar a página, o seu endereço IP é transmitido aos servidores da Google. Consulte a política de privacidade da Google para mais detalhes, ou aloje os tipos de letra localmente para evitar isto.",
+      sectionStorageTitle: "Preferência de idioma",
+      storageText:
+        "O idioma escolhido é guardado localmente no seu navegador (localStorage), para ser lembrado na próxima visita. Esta informação não é transmitida ao servidor.",
+      sectionRightsTitle: "Os seus direitos",
+      rightsText:
+        "Tem o direito de aceder, retificar, apagar e limitar o tratamento dos seus dados pessoais, bem como o direito à portabilidade dos dados.",
+    },
   },
 };
 
