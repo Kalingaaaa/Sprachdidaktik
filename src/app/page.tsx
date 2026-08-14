@@ -36,7 +36,7 @@ export default function Home() {
             >
               {t.home.ctaPrimary}
             </Link>
-            
+            <a>
               href="#module"
               className="border border-line px-7 py-3 text-sm font-medium text-green hover:border-green transition-colors"
             >
